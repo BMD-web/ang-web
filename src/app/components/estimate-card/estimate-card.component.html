@@ -1,0 +1,8 @@
+<div class="service-card">
+    <h3>Estimated time: <span class="{{ packageTier }}">{{ estimatedTime }}</span>*</h3>
+    <h3>Service starts from: <span class="{{ packageTier }}">${{ estimatedCost }}</span></h3>
+    <div style="text-align: center;margin-bottom: 10px">
+        <app-booking-button *ngIf="this.isModal" [modalId]="modalId"></app-booking-button>
+        <app-external-booking-button [bookingUrl]="this.bookingUrl" [disclaimerMsg]="this.disclaimerMsg" *ngIf="!this.isModal && this.bookingUrl"></app-external-booking-button>
+    </div>
+</div>

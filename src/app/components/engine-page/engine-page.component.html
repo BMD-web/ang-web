@@ -1,0 +1,38 @@
+<app-cover-pic [picUrl]=pu [title]=tt [subtitle]=st></app-cover-pic>
+<div id="overl" style="width:100%">
+<div style="max-width: 85%;margin-left:auto;margin-right:auto;margin-top: 30px;">
+    <div class="container">
+        <div class="row gx-3 gy-2" style="height:100%">
+            <div class="col-lg-4" id="col-row-a">
+                <div class="row" style="margin-bottom:10px;padding-right: calc(var(--bs-gutter-x)* .5);padding-left: calc(var(--bs-gutter-x)* .5);">
+                    <div class="col-12 h-100" style="padding-bottom:0px;background:#242424;border-radius:10px" id="d-card-a">
+                        <h3 class="choice" style="margin:5px 0">Degrease & Declutter</h3>
+                        <p>This service will degrease surfaces inside the engine bay and will remove any debris that has built up.</p>
+                        <p>For any car owners who want to minimize functional risks to their engine bay.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <app-estimate-card id="dd-card-a" [bookingUrl]="ura" [disclaimerMsg]="'The following link will open our Calendly booking page in a new tab:'" [estimatedCost]="csta" [estimatedTime]="hrsa" [packageTier]="'choice'"></app-estimate-card>
+                </div>
+            </div>
+            <div class="col-lg-4" id="center-col" style="overflow:hidden;position:relative;">
+                <img src="bmw_engine_v.jpg" style="height:100%;position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);">
+            </div>
+            <div class="col-lg-4" id="right-col" (ngxResize)="onResize($event)" style="max-height:fit-content">
+                <div class="row" style="margin-bottom:10px;padding-right: calc(var(--bs-gutter-x)* .5);padding-left: calc(var(--bs-gutter-x)* .5);">
+                    <div class="service-card" id="d-card-b">
+                        <h3 class="premium">Full Detail</h3>
+                        <p>This service will go the extra mile to lift dirt from the cracks and crevices inside the engine bay. The underside of the hood will be thoroughly cleaned and all plastic surfaces will be restored.</p>
+                        <p>For any car owners who want their engine bay to stand out from the rest.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <app-estimate-card id="dd-card-b" [bookingUrl]="urb" [disclaimerMsg]="'The following link will open our Calendly booking page in a new tab:'" [estimatedCost]="cstb" [estimatedTime]="hrsb" [packageTier]="'premium'"></app-estimate-card>
+                </div>
+            </div>
+        </div>
+    <div class="disclaimer subtitle">
+        <p><i>*Actual service duration and cost varies based on vehicle size and condition.</i></p>
+    </div>
+</div>
+</div>

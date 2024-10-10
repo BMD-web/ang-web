@@ -1,0 +1,35 @@
+<app-cover-pic [picUrl]=pu [title]=tt [subtitle]=st></app-cover-pic>
+<div style="max-width: 85%;margin-left:auto;margin-right:auto;margin-top: 30px;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <div class="row">
+                    <app-estimate-card [bookingUrl]="ur" [disclaimerMsg]="'The following link will open our Calendly booking page in a new tab:'" [estimatedCost]="cst" [estimatedTime]="hrs" [packageTier]="'choice'"></app-estimate-card>
+                </div>
+                <div class="row">
+                    <div class="text-cont">
+                        <p>The headlights on your car take quite a beating--as you drive, they're being pelted with debris, splattered with chemicals from the road, and broken down by harsh UV rays from the sun. Every drive, your headlights deteriorate a little further, until one day you look at your car and realize they've turned completely yellow and cloudy.</p>
+                        <p>But there's no need to panic!</p>
+                        <p>Our headlight restoration service will lift the contaminants embedded into your car's headlights before resurfacing the plastic to smooth out all the pits and scratches cresting that irritating yellow fog. We'll then apply a high-quality sealant to protect your headlights for up to a year, preserving their clear, fog-free appearance.</p>
+                        <p>Not only does this service provide a tasteful cosmetic improvement for your vehicle, it also restores the range and power of your headlights, making night driving safer for both you and the other drivers on the road. With our headlight restoration service, you can rest easy knowing your headlights won't be getting in the way of your visibility on the road--day or night.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 align-self-center">
+                <div class="img-cont" style="text-align:center">
+                    <h4>Click and drag the slider to see the results!</h4>
+                    <img-comparison-slider>
+                        <img style="max-width:100%" slot="first" src="after.PNG" />
+                        <img style="max-width:100%" slot="second" src="before.PNG" />
+                        <svg slot="handle" xmlns="http://www.w3.org/2000/svg" width="100" viewBox="-8 -3 16 6">
+                            <path stroke="#fff" d="M -5 -2 L -7 0 L -5 2 M -5 -2 L -5 2 M 5 -2 L 7 0 L 5 2 M 5 -2 L 5 2" stroke-width="1" fill="#fff" vector-effect="non-scaling-stroke"></path>
+                          </svg>
+                    </img-comparison-slider>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="disclaimer subtitle">
+        <p><i>*Actual service duration and cost varies based on vehicle size and condition.</i></p>
+    </div>
+</div>

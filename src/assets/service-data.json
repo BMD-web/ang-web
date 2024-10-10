@@ -1,0 +1,242 @@
+[
+ {
+   "Id": "basic-refresh-interior-xs",
+   "VehicleSize": "xs",
+   "Price": 85,
+   "Time": "1 hour",
+   "Type": "interior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "basic-refresh-exterior-xs",
+   "VehicleSize": "xs",
+   "Price": 95,
+   "Time": "1.5 hours",
+   "Type": "exterior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "choice-detail-interior-xs",
+   "VehicleSize": "xs",
+   "Price": 150,
+   "Time": "3.5 hours",
+   "Type": "interior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "choice-detail-exterior-xs",
+   "VehicleSize": "xs",
+   "Price": 165,
+   "Time": "3.5 hours",
+   "Type": "exterior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "premium-restoration-interior-xs",
+   "VehicleSize": "xs",
+   "Price": 275,
+   "Time": "6.5 hours",
+   "Type": "interior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "premium-restoration-exterior-xs",
+   "VehicleSize": "xs",
+   "Price": 305,
+   "Time": "7.5 hours",
+   "Type": "exterior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "basic-refresh-interior-s",
+   "VehicleSize": "s",
+   "Price": 95,
+   "Time": "1.5 hours",
+   "Type": "interior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "basic-refresh-exterior-s",
+   "VehicleSize": "s",
+   "Price": 105,
+   "Time": "2 hours",
+   "Type": "exterior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "choice-detail-interior-s",
+   "VehicleSize": "s",
+   "Price": 175,
+   "Time": "4 hours",
+   "Type": "interior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "choice-detail-exterior-s",
+   "VehicleSize": "s",
+   "Price": 185,
+   "Time": "4 hours",
+   "Type": "exterior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "premium-restoration-interior-s",
+   "VehicleSize": "s",
+   "Price": 315,
+   "Time": "7 hours",
+   "Type": "interior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "premium-restoration-exterior-s",
+   "VehicleSize": "s",
+   "Price": 345,
+   "Time": "8 hours",
+   "Type": "exterior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "basic-refresh-interior-m",
+   "VehicleSize": "m",
+   "Price": 110,
+   "Time": "2 hours",
+   "Type": "interior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "basic-refresh-exterior-m",
+   "VehicleSize": "m",
+   "Price": 120,
+   "Time": "2.5 hours",
+   "Type": "exterior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "choice-detail-interior-m",
+   "VehicleSize": "m",
+   "Price": 205,
+   "Time": "5 hours",
+   "Type": "interior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "choice-detail-exterior-m",
+   "VehicleSize": "m",
+   "Price": 205,
+   "Time": "4.5 hours",
+   "Type": "exterior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "premium-restoration-interior-m",
+   "VehicleSize": "m",
+   "Price": 365,
+   "Time": "7.5 hours",
+   "Type": "interior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "premium-restoration-exterior-m",
+   "VehicleSize": "m",
+   "Price": 395,
+   "Time": "8.5 hours",
+   "Type": "exterior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "basic-refresh-interior-l",
+   "VehicleSize": "l",
+   "Price": 120,
+   "Time": "2.5 hours",
+   "Type": "interior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "basic-refresh-exterior-l",
+   "VehicleSize": "l",
+   "Price": 130,
+   "Time": "3 hours",
+   "Type": "exterior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "choice-detail-interior-l",
+   "VehicleSize": "l",
+   "Price": 220,
+   "Time": "6 hours",
+   "Type": "interior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "choice-detail-exterior-l",
+   "VehicleSize": "l",
+   "Price": 230,
+   "Time": "5 hours",
+   "Type": "exterior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "premium-restoration-interior-l",
+   "VehicleSize": "l",
+   "Price": 390,
+   "Time": "8 hours",
+   "Type": "interior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "premium-restoration-exterior-l",
+   "VehicleSize": "l",
+   "Price": 410,
+   "Time": "9 hours",
+   "Type": "exterior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "basic-refresh-interior-xl",
+   "VehicleSize": "xl",
+   "Price": 200,
+   "Time": "3 hours",
+   "Type": "interior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "basic-refresh-exterior-xl",
+   "VehicleSize": "xl",
+   "Price": 210,
+   "Time": "4 hours",
+   "Type": "exterior",
+   "Title": "Basic Refresh"
+ },
+ {
+   "Id": "choice-detail-interior-xl",
+   "VehicleSize": "xl",
+   "Price": 395,
+   "Time": "6.5 hours",
+   "Type": "interior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "choice-detail-exterior-xl",
+   "VehicleSize": "xl",
+   "Price": 405,
+   "Time": "6 hours",
+   "Type": "exterior",
+   "Title": "Choice Detail"
+ },
+ {
+   "Id": "premium-restoration-interior-xl",
+   "VehicleSize": "xl",
+   "Price": 615,
+   "Time": "9 hours",
+   "Type": "interior",
+   "Title": "Premium Restoration"
+ },
+ {
+   "Id": "premium-restoration-exterior-xl",
+   "VehicleSize": "xl",
+   "Price": 635,
+   "Time": "10 hours",
+   "Type": "exterior",
+   "Title": "Premium Restoration"
+ }
+]

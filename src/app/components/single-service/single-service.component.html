@@ -1,0 +1,6 @@
+<div class="single-service service-card" [class.inactive]="serv.isDisabled" [class.active]="!serv.isDisabled" [ngbTooltip]="serv.disabledTooltip">
+    <h4>{{ serv.name }}</h4>
+    <h5>Time: <span class="choice">{{ serv.time }}</span></h5>
+    <h5>Price: <span class="choice">${{ serv.price }}</span></h5>
+</div>
+<ng-template *ngIf="serv.disabledTooltip">{{ serv.disabledTooltip }}</ng-template>

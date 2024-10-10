@@ -1,0 +1,7 @@
+<div class="service-card">
+    <h3 class="{{ packageTier }}">{{ packageName }}</h3>
+    <p class="subtitle" *ngIf="packageSubtitle"><i>{{ packageSubtitle }}</i></p>
+    <ul class="featureList">
+        <li *ngFor="let feature of features">{{ feature }}</li>
+    </ul>
+</div>

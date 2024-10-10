@@ -1,0 +1,24 @@
+<h2>Exterior Services</h2>
+<div class="container">
+    <div class="row gx-2 gy-2">  
+        <div *ngFor="let item of exteriorServices" class="col-lg-3 col-md-2 single-cont">
+            <app-single-service class="single-cont" [serv]=item></app-single-service>
+        </div>
+    </div>
+</div>
+<h2>Interior Services</h2>
+<div class="container">
+    <div class="row gx-2 gy-2">
+        <div *ngFor="let item of interiorServices" class="col-lg-3 col-md-2">
+            <app-single-service class="single-cont" [serv]=item></app-single-service>
+        </div>
+    </div>
+</div>
+<h2>Engine Services</h2>
+<div class="container">
+    <div class="row gx-2 gy-2"> 
+        <div *ngFor="let item of engineServices" class="col-lg-3 col-md-2">
+            <app-single-service class="single-cont" [serv]=item></app-single-service>
+        </div>
+    </div>
+</div>

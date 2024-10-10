@@ -1,1 +1,238 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    all: unset;
+}
+
+html {
+    all: unset;
+    background: black;
+    color: white;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: "Poppins", sans-serif;
+    margin: 8px;
+    line-height: unset;
+    overflow-x:hidden;
+}
+
+p {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 2.5em;
+    margin-top: 33.2px;
+    margin-bottom: 33.2px;
+}
+
+h3 {
+    font-size: 1.6em;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-top: 23px;
+    margin-bottom: 23px;
+}
+
+a {
+    color: white;
+}
+
+.red-button {
+    padding: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    background: #d40202;
+    transition: transform 0.2s;
+}
+
+.red-button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+
+.service-card, .vehicle-card.inactive, .vehicle-card.active {
+    background: #242424;
+    border-radius: 10px;
+    padding: 20px 30px;
+    height: 100%;
+    color: white;
+}
+
+.vehicle-card.active {
+    background: white !important;
+    color: black !important;
+}
+
+.service-card h3 {
+    margin: 5px 0;
+}
+
+.basic {
+    color: #ffb657;
+}
+
+.choice {
+    color: #a6f799;
+}
+
+.premium {
+    color: #aff0ff;
+}
+
+.subtitle {
+    font-size: smaller;
+    color: #d4d4d4;
+}
+
+.relevant-info {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.disclaimer {
+    text-align: center;
+}
+
+.jw-modal {
+    /* modal container fixed across whole screen */
+    position: fixed;
+    inset: 0;
+
+    /* z-index must be higher than everything else on the page */
+    z-index: 10000;
+        
+    /* semi-transparent black background exposed by padding */
+    background-color: rgba(0, 0, 0, .75);
+    padding: 40px;
+
+    /* enables scrolling for tall modals */
+    overflow: auto;
+}
+
+.jw-modal-body {
+    padding: 20px;
+    background: black;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body.jw-modal-open {
+    /* body overflow is hidden to hide main scrollbar when modal window is open */
+    overflow: hidden;
+}
+
+.vehicle-card {
+    padding: 10px !important;
+}
+
+.vehicle-card:hover, .booking-card-el:hover {
+    background: #4f4f4f;
+    cursor: pointer;
+}
+
+.req {
+    color: red;
+}
+
+#dropdown-content {
+    position: absolute;
+    min-width: 200px;
+    z-index: 1;
+    font-size: medium;
+    text-decoration:none;
+    background: black;
+    box-shadow: 0ps 8px 16px 0px rgba(0,0,0,0.8);
+}
+
+#dropdown-content a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+}
+
+#nav-links {
+    background: #242424;
+    width: 100%;
+    font-size: 0;
+}
+
+.menu-container {
+    display: inline-block;
+    position: relative;
+}
+
+.nav-button {
+    display: inline-block;
+    margin: 0;
+    font-weight: bold;
+    padding: 4px 10px;
+    transition: background 0.4s, color 0.4s;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.nav-button:hover, #dropdown-content a:hover {
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+
+.title-img {
+    max-width: 400px;
+    padding: 25px;
+    padding-top: 0px;
+    box-sizing: unset;
+}
+
+#cover-pic {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#cover-pic p {
+    font-size: 1.2em;
+    text-shadow: 4px 4px 6px black, -4px 4px 6px black, -4px -4px 6px black, 4px -4px 6px black;
+    margin-top: 19.2px;
+    margin-bottom: 19.2px;
+}
+
+#navbar {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#quote-button {
+    float: right;
+    margin-right: 25px;
+    font-size:large;
+    transform: translateY(-240%) scale(1);
+}
+
+#quote-button:hover {
+    transform:translateY(-240%) scale(1.05);
+    cursor: pointer;
+}
+
+.single-service.inactive h4, .single-service.inactive h5{
+    opacity: 30%;
+}
+
+.single-cont:hover > .service-card.active {
+    box-shadow: 0 0 10px white;
+    cursor: pointer;
+}

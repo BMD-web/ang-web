@@ -1,0 +1,18 @@
+<div class="relevant-info">
+    <p>{{ relInfo }}</p>
+</div>
+<div class="container" style="max-width:95%;">
+    <div class="row gx-4 gy-1" style="margin-bottom:10px">
+        <div class="col-lg-4" *ngFor="let description of descriptions">
+            <app-description-card [features]=description.features [packageName]=description.packageName [packageSubtitle]=description.packageSubtitle [packageTier]=description.packageTier></app-description-card>
+        </div>
+    </div>
+    <div class="row gx-4 gy-1">
+        <div class="col-lg-4" *ngFor="let estimate of estimates">
+            <app-estimate-card [serviceType]="this.serviceType" [isModal]="this.isModal" [estimatedCost]=estimate.estimatedCost [estimatedTime]=estimate.estimatedTime [packageTier]=estimate.packageTier></app-estimate-card>
+        </div>
+    </div>
+</div>
+<div class="disclaimer subtitle">
+    <p><i>*Actual service duration and cost varies based on vehicle size and condition.</i></p>
+</div>

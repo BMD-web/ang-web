@@ -1,0 +1,8 @@
+<div class="menu-container" (mouseover)="showIt(true)" (mouseleave)="showIt(false)">
+    <a class="nav-button" (click)="showIt(true)">Services</a>
+    <div id="dropdown-content" *ngIf="isMenuOpened">
+      <a style="display:block" *ngFor="let item of items" routerLink="{{item.link}}" routerLinkActive="active" ariaCurrentWhenActive="page">
+        {{item.name}}
+      </a>
+    </div>
+</div>

@@ -1,0 +1,232 @@
+[
+	
+		{
+			"type":"exterior",
+			"name":"Hand wash",
+			"price":30,
+			"time":"45 minutes",
+			"dependents":[
+				"Clay bar",
+				"Polish",
+				"Wax"
+			],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Windows & mirrors (inside and outside)",
+			"price":20,
+			"time":"25 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Wipe down door jambs",
+			"price":40,
+			"time":"45 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Tire dressing",
+			"price":25,
+			"time":"30 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Clay bar",
+			"price":35,
+			"time":"45 minutes",
+			"dependents":[
+				"!Polish",
+				"!Wax"
+			],
+			"dependsOn":[
+				"Hand wash"
+			],
+			"disabledTooltip":"Clay bar treatments can't be performed on dirty cars. A hand wash is mandatory beforehand, and a polish and wax is mandatory after.",
+			"isDisabled":true
+		},
+		{
+			"type":"exterior",
+			"name":"Polish",
+			"price":65,
+			"time":"1.5 hours",
+			"dependents":[
+				"!Wax"
+			],
+			"dependsOn":[
+				"Hand wash",
+				"Clay bar"
+			],
+			"disabledTooltip":"Polish must be performed on a washed & clay-barred car, and they must be followed by a wax treatment to protect the paint.",
+			"isDisabled":true
+		},
+		{
+			"type":"exterior",
+			"name":"Wax",
+			"price":30,
+			"time":"40 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn":[
+				"Hand wash",
+				"Clay bar",
+				"Polish"
+			],
+			"disabledTooltip":"Wax should only be applied to a washed, clay-barred, and polished car.",
+			"isDisabled":true
+		},
+		{
+			"type":"exterior",
+			"name":"Bug & tar removal",
+			"price":15,
+			"time":"20 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn":[
+				
+			],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Headlight restoration",
+			"price":35,
+			"time":"45 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn":[
+				
+			],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Exterior trim restoration",
+			"price":25,
+			"time":"45 minutes",
+			"dependents":[
+				
+			],
+			"dependsOn":[
+				
+			],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"exterior",
+			"name":"Iron Decon wheels & Ceramic rim protection",
+			"price":55,
+			"time":"1 hour",
+			"dependents":[
+				
+			],
+			"dependsOn":[
+				
+			],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type": "interior",
+			"name":"Vacuum and dust",
+			"price":25,
+			"time":"45 minutes",
+			"dependents":[],
+			"dependsOn":[],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type": "interior",
+			"name":"Seat cleaning (leather or fabric)",
+			"price":55,
+			"time":"1.5 hours",
+			"dependents": [],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type": "interior",
+			"name": "Carpet shampoo & pedal cleaning",
+			"price":45,
+			"time":"1 hour",
+			"dependents": [],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"interior",
+			"name":"Dashboard & center console deep cleaning",
+			"price":35,
+			"time":"45 minutes",
+			"dependents": [],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"engine",
+			"name":"Engine bay degreasing",
+			"price":55,
+			"time":"1 hour",
+			"dependents": [
+				"Engine bay black trim restoration",
+				"Hood underside cleaning"
+			],
+			"dependsOn": [],
+			"disabledTooltip":"",
+			"isDisabled":false
+		},
+		{
+			"type":"engine",
+			"name":"Engine bay black trim restoration",
+			"price":25,
+			"time":"30 minutes",
+			"dependents":[],
+			"dependsOn": [
+				"Engine bay degreasing"
+			],
+			"disabledTooltip":"The engine bay must be degreased prior to applying any trim restorer.",
+			"isDisabled":true
+		},
+		{
+			"type":"engine",
+			"name":"Hood underside cleaning",
+			"price":35,
+			"time":"45 minutes",
+			"dependents": [],
+			"dependsOn": [
+				"Engine bay degreasing"
+			],
+			"disabledTooltip":"The engine bay must be degreased before the hood can be cleaned, to prevent additional grease and dirt from being thrown onto the hood when the car is next turned on.",
+			"isDisabled":true
+		}
+	]
